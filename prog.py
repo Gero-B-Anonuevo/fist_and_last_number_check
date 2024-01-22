@@ -6,10 +6,11 @@ third_number = int(input("What is your third number: "))
 fourth_number = int(input("What is your fourth number: "))
 fifth_number = int(input("What is your fifth number: "))
 
+print("Given list: [", first_number, ", ", second_number, ", ", third_number, ", ", fourth_number, ", ", fifth_number, "]")
 
 #compare first and last given number
 #true if identical and false if not
 if first_number == fifth_number:
-    print("True")
+    print("Result is: True")
 else:
-    print("False")
+    print("Result is: False")
